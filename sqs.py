@@ -74,6 +74,6 @@ def put_sqs_policy(url, attributes):
 
 if __name__ == "__main__":
     #sqs_list = list_sqs_urls()
-    sqs_list = ["https://sqs.us-east-1.amazonaws.com/049317870295/lab-taynan"]
+    sqs_list = ["https://sqs.us-east-1.amazonaws.com/049317870295/lab-taynan"] #descomenta para teste em um único SQS
     get_queue_attributes(sqs_list)
 
